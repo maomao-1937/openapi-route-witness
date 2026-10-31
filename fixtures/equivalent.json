@@ -1,0 +1,47 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "Synthetic route witness fixture",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/pets/{id}": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Synthetic successful response"
+          }
+        }
+      },
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "/pets/{name}": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Synthetic successful response"
+          }
+        }
+      },
+      "parameters": [
+        {
+          "name": "name",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    }
+  }
+}

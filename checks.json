@@ -1,0 +1,93 @@
+[
+  {
+    "args": [
+      "openapi_route_witness.py",
+      "fixtures/clean.json"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "openapi_route_witness.py",
+      "fixtures/crossing.json"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "openapi_route_witness.py",
+      "fixtures/equivalent.json"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "openapi_route_witness.py",
+      "fixtures/precedence.json"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "openapi_route_witness.py",
+      "fixtures/different-methods.json"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "openapi_route_witness.py",
+      "fixtures/root-trailing.json"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "openapi_route_witness.py",
+      "fixtures/trailing-crossing.json"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "openapi_route_witness.py",
+      "fixtures/partial-precedence.json"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "openapi_route_witness.py",
+      "fixtures/unsupported-mixed.json"
+    ],
+    "exit": 2
+  },
+  {
+    "args": [
+      "openapi_route_witness.py",
+      "fixtures/unsupported-reference.json"
+    ],
+    "exit": 2
+  },
+  {
+    "args": [
+      "openapi_route_witness.py",
+      "fixtures/unsupported-version.json"
+    ],
+    "exit": 2
+  },
+  {
+    "args": [
+      "openapi_route_witness.py",
+      "fixtures/invalid-container.json"
+    ],
+    "exit": 2
+  },
+  {
+    "args": [
+      "openapi_route_witness.py",
+      "fixtures/duplicate-key.json"
+    ],
+    "exit": 2
+  }
+]

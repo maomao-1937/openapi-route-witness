@@ -1,0 +1,47 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "Synthetic route witness fixture",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/{entity}/me": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Synthetic successful response"
+          }
+        }
+      },
+      "parameters": [
+        {
+          "name": "entity",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "/books/{id}": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Synthetic successful response"
+          }
+        }
+      },
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    }
+  }
+}
